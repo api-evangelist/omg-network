@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org/@omisego/omg-js
+description: >-
+  First-party OMG Network client library, confirmed against the public npm
+  registry (https://registry.npmjs.org). OMG Network (formerly OmiseGO) is a
+  Layer-2 plasma scaling solution for Ethereum; the project has wound down and
+  the SDK's last publish was in 2022. Registry status recorded at fetch time.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@omisego/omg-js"
+    url: https://www.npmjs.com/package/@omisego/omg-js
+    source: https://github.com/omisego/omg-js
+    install: npm install @omisego/omg-js
+    latest: 4.1.2-1.0.4
+    last_published: '2022-04-06'
+    official: true
+    note: >-
+      JavaScript library to interact with the OMG Network (Watcher / child
+      chain). No longer actively maintained.

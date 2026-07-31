@@ -1,8 +1,23 @@
 aid: omg-network
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omg-network.png
 name: OMG Network
-description: 'OMG Network is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OMG Network (formerly OmiseGO) is a Layer-2 plasma scaling solution
+  for Ethereum, providing faster, cheaper value transfer and settlement on top of
+  the Ethereum root chain via a Watcher / child-chain architecture. Surfaced as a
+  portfolio company of pantera-capital and added to the API Evangelist network. The
+  project has largely wound down: the omg.network site currently resolves to a redirect
+  loop and the first-party @omisego/omg-js SDK last published in 2022. Sector: crypto.'
 url: https://raw.githubusercontent.com/api-evangelist/omg-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Ethereum
+- Layer 2
+- Plasma
+- Scaling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/omg-network-domain-security.yml
 - type: Website
   url: https://omg.network/
+- type: GitHubOrganization
+  url: https://github.com/omgnetwork
+- type: SourceCode
+  url: https://github.com/omisego/omg-js
+- type: Packages
+  url: packages/omg-network-packages.yml
+- type: SDKs
+  url: packages/omg-network-packages.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
